@@ -1,6 +1,6 @@
 Sistema completo para gestão de contratos e geração de recibos com assinatura digital.
 
-[Live Demo](https://recibofast.vercel.app) · [Política de Privacidade](https://recibofast.vercel.app/privacy) · [Termos](https://recibofast.vercel.app/terms) · Contato: davidassef@gmail.com
+[Live Demo](https://recibo-fast.vercel.app) · [Política de Privacidade](https://recibo-fast.vercel.app/privacy) · [Termos](https://recibo-fast.vercel.app/terms) · Contato: davidassef@gmail.com
 
 ## ✨ Principais Funcionalidades
 - Gestão de contratos e receitas
@@ -19,7 +19,7 @@ As imagens estão na pasta `assets/`.
 - Wizard de Novo Recibo: `assets/screenshot-wizard.svg`
 
 ## 🚀 Como começar
-- Acesse a produção: [https://recibofast.vercel.app](https://recibofast.vercel.app)
+- Acesse a produção: [https://recibo-fast.vercel.app](https://recibo-fast.vercel.app)
 - Solicite acesso ou entre em contato.
 
 ## 💳 Planos e Preços
@@ -31,7 +31,7 @@ Contato: davidassef@gmail.com
 
 ## 🔒 Privacidade e Segurança
 - Autenticação, RLS no banco e criptografia em repouso e em trânsito.
-- [Privacidade](https://recibofast.vercel.app/privacy) • [Termos](https://recibofast.vercel.app/terms)
+- [Privacidade](https://recibo-fast.vercel.app/privacy) • [Termos](https://recibo-fast.vercel.app/terms)
 
 ## ❓ FAQ
 - Funciona offline? Sim, é PWA.
