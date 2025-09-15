@@ -20,6 +20,7 @@
     .features{grid-template-columns:repeat(3,minmax(0,1fr));margin-top:32px}
     .shots{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:24px}
     .shot{aspect-ratio:16/10;background:#0b1220;border:1px solid #243042;border-radius:12px;display:flex;align-items:center;justify-content:center;color:#7dd3fc}
+    .screenshot{max-width:100%;height:auto;border-radius:8px}
     footer{margin-top:40px;color:var(--muted);font-size:14px}
     @media (max-width:900px){.hero{grid-template-columns:1fr}.features{grid-template-columns:1fr}.shots{grid-template-columns:1fr}}
   </style>
@@ -36,7 +37,7 @@
         </div>
       </div>
       <div class="card">
-        <div class="shot">Prévia do Dashboard</div>
+        <img src="https://recibo-fast.vercel.app/assets/dashboard-screenshot.png" alt="Dashboard do ReciboFast" class="screenshot">
       </div>
     </section>
 
@@ -47,10 +48,22 @@
     </section>
 
     <section class="grid shots">
-      <div class="card shot">Dashboard</div>
-      <div class="card shot">Recibos</div>
-      <div class="card shot">Contratos</div>
-      <div class="card shot">Wizard Novo Recibo</div>
+      <div class="card">
+        <img src="https://recibo-fast.vercel.app/assets/dashboard-screenshot.png" alt="Dashboard" class="screenshot">
+        <h3>Dashboard</h3>
+      </div>
+      <div class="card">
+        <img src="https://recibo-fast.vercel.app/assets/recibos-screenshot.png" alt="Recibos" class="screenshot">
+        <h3>Recibos</h3>
+      </div>
+      <div class="card">
+        <img src="https://recibo-fast.vercel.app/assets/contratos-screenshot.png" alt="Contratos" class="screenshot">
+        <h3>Contratos</h3>
+      </div>
+      <div class="card">
+        <img src="https://recibo-fast.vercel.app/assets/recibos-screenshot.png" alt="Wizard" class="screenshot">
+        <h3>Wizard de Novo Recibo</h3>
+      </div>
     </section>
 
     <footer>

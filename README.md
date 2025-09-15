@@ -11,12 +11,12 @@ Sistema completo para gestão de contratos e geração de recibos com assinatura
 - Segurança: autenticação e isolamento de dados por usuário
 
 ## 📸 Capturas de Tela
-As imagens estão na pasta `assets/`.
+As imagens reais estão na pasta `assets/`.
 
-- Dashboard: `assets/screenshot-dashboard.svg`
-- Recibos: `assets/screenshot-recibos.svg`
-- Contratos: `assets/screenshot-contratos.svg`
-- Wizard de Novo Recibo: `assets/screenshot-wizard.svg`
+- **Dashboard**: ![Dashboard](assets/dashboard-screenshot.png)
+- **Recibos**: ![Recibos](assets/recibos-screenshot.png)
+- **Contratos**: ![Contratos](assets/contratos-screenshot.png)
+- **Wizard de Novo Recibo**: ![Wizard](assets/recibos-screenshot.png)
 
 ## 🚀 Como começar
 - Acesse a produção: [https://recibo-fast.vercel.app](https://recibo-fast.vercel.app)
