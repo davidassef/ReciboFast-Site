@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ReciboFast — Gestão de contratos e recibos</title>
+  <meta name="description" content="ReciboFast: gestão de contratos, recibos com assinatura digital e dashboard financeiro.">
+  <style>
+    :root{--bg:#0f172a;--fg:#e2e8f0;--accent:#3b82f6;--card:#111827;--muted:#94a3b8}
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,Arial,sans-serif;background:var(--bg);color:var(--fg)}
+    .container{max-width:1040px;margin:0 auto;padding:32px}
+    .hero{display:grid;grid-template-columns:1.2fr 1fr;gap:28px;align-items:center}
+    .hero h1{font-size:40px;margin:0 0 12px}
+    .hero p{color:var(--muted);margin:0 0 20px}
+    .cta{display:flex;gap:12px}
+    .btn{background:var(--accent);color:white;border:none;border-radius:10px;padding:12px 16px;cursor:pointer;font-weight:600}
+    .btn.secondary{background:transparent;border:1px solid #334155;color:var(--fg)}
+    .card{background:var(--card);border:1px solid #1f2937;border-radius:14px;padding:16px}
+    .grid{display:grid;gap:16px}
+    .features{grid-template-columns:repeat(3,minmax(0,1fr));margin-top:32px}
+    .shots{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:24px}
+    .shot{aspect-ratio:16/10;background:#0b1220;border:1px solid #243042;border-radius:12px;display:flex;align-items:center;justify-content:center;color:#7dd3fc}
+    footer{margin-top:40px;color:var(--muted);font-size:14px}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}.features{grid-template-columns:1fr}.shots{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <div>
+        <h1>ReciboFast</h1>
+        <p>Gestão de contratos, geração de recibos com assinatura digital e indicadores financeiros. Um app moderno, rápido e seguro.</p>
+        <div class="cta">
+          <a class="btn" href="https://recibofast.vercel.app" target="_blank" rel="noopener">Acessar o app</a>
+          <a class="btn secondary" href="https://github.com/davidassef/ReciboFast-site" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="shot">Prévia do Dashboard</div>
+      </div>
+    </section>
+
+    <section class="grid features">
+      <div class="card"><strong>Recibos</strong><br><span class="muted">Gere e compartilhe recibos assinados digitalmente.</span></div>
+      <div class="card"><strong>Contratos</strong><br><span class="muted">Organize contratos, clientes e documentos.</span></div>
+      <div class="card"><strong>Financeiro</strong><br><span class="muted">Acompanhe entradas, pagamentos e indicadores.</span></div>
+    </section>
+
+    <section class="grid shots">
+      <div class="card shot">Dashboard</div>
+      <div class="card shot">Recibos</div>
+      <div class="card shot">Contratos</div>
+      <div class="card shot">Wizard Novo Recibo</div>
+    </section>
+
+    <footer>
+      © 2025 ReciboFast • <a href="https://recibofast.vercel.app/privacy" style="color:#60a5fa">Privacidade</a> • <a href="https://recibofast.vercel.app/terms" style="color:#60a5fa">Termos</a>
+    </footer>
+  </div>
+</body>
+</html>
